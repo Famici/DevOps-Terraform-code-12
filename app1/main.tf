@@ -5,6 +5,7 @@ module "key" {
   key_name = "zie-key"
 }
 
+/*
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
@@ -24,5 +25,5 @@ module "vpc" {
     Team = Devops
   }
 }
-
+*/
 
